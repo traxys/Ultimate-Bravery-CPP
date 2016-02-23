@@ -8,3 +8,5 @@ champName = open("../championName.json","w")
 champName.write(json.dumps(sorted(champJSON),indent=4))
 champName.close()
 
+print("Finished generating championName.json")
+

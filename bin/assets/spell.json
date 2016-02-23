@@ -94,6 +94,11 @@
         "Diana_W_LunarShower.png",
         "Diana_E_MoonFall.png"
     ],
+    "Dr Mundo": [
+        "Masochism.png",
+        "Burning_Agony.png",
+        "Infected_Cleaver.png"
+    ],
     "Draven": [
         "Draven_TwinAxe.png",
         "Draven_Bloodrage.png",
@@ -225,6 +230,11 @@
         "Karma_W1.png",
         "Karma_E1.png"
     ],
+    "Karthus": [
+        "Karthus_Q.png",
+        "Karthus_E.png",
+        "Karthus_W.png"
+    ],
     "Kassadin": [
         "Kassadin_Q.png",
         "Kassadin_E.png",
@@ -249,11 +259,6 @@
         "Khazix_Q.png",
         "Khazix_W.png",
         "Khazix_E.png"
-    ],
-    "Khartus": [
-        "Karthus_Q.png",
-        "Karthus_E.png",
-        "Karthus_W.png"
     ],
     "Kindred": [
         "Kindred_W.png",

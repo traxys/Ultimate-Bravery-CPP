@@ -73,6 +73,7 @@
         "Manamune.png",
         "Morello's_Evil_Tome.png",
         "Essence_Reaver_item.png",
+        "Frost_Queen's_Claim_item.png",
         "Nashor's_Tooth.png",
         "Frozen_Mallet.png",
         "Iceborn_Gauntlet_item.png",
@@ -91,8 +92,7 @@
         "Frozen_Heart.png",
         "Wit's_End.png",
         "Spirit_Visage.png",
-        "Titanic_Hydra_item.png",
-	"Frost_Queen's_Claim_item.png"
+        "Titanic_Hydra_item.png"
     ],
     "elixir": [
         "Elixir_of_Iron_item.png",

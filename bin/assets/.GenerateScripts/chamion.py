@@ -4,7 +4,7 @@ import json
 curFold = os.getcwd()
 
 f = []
-for (dirpath, dirnames, filenames) in os.walk(curFold+"../champion/"):
+for (dirpath, dirnames, filenames) in os.walk(curFold+"/../champion/"):
 	f.extend(filenames)
 	break
 
@@ -25,4 +25,4 @@ fl = open("../championIcon.json","w")
 fl.write(jChamps)
 fl.close()
 
-print(jChamps)
+print("Finished generating championIcon.json")

@@ -29,6 +29,6 @@ fl = open("../item.json","w")
 fl.write(jItems)
 fl.close()
 
-print(jItems)
+print("Finished generating : item.py")
 
 

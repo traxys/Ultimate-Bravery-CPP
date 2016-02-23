@@ -4,7 +4,7 @@ import json
 curFold = os.getcwd()
 
 f = []
-for (dirpath, dirnames, filenames) in os.walk(curFold+"../summs/"):
+for (dirpath, dirnames, filenames) in os.walk(curFold+"/../summs/"):
 	f.extend(filenames)
 	break
 
@@ -14,4 +14,4 @@ fl = open("../summs.json","w")
 fl.write(jSumms)
 fl.close()
 
-print(jSumms)
+print("Finished generating : summs.py")
