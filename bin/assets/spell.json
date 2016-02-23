@@ -1,0 +1,643 @@
+{
+    "Aatrox": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Ahri": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Akali": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Alistar": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Amumu": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Anivia": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Annie": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Ashe": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Azir": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Bard": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Blitzcrank": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Brand": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Braum": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Caitlyn": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Cassiopeia": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Cho'Gath": [
+        "E.png",
+        "Q.png",
+        "W.png"
+    ],
+    "Corki": [
+        "Corki_PhosphorusBomb.png",
+        "Corki_GatlingGun.png",
+        "Corki_Valkyrie.png"
+    ],
+    "Darius": [
+        "Darius_Icon_Axe_Grab.png",
+        "Darius_Icon_Decimate.png",
+        "Darius_Icon_Hamstring.png"
+    ],
+    "Diana": [
+        "Diana_Q_MoonsEdge.png",
+        "Diana_W_LunarShower.png",
+        "Diana_E_MoonFall.png"
+    ],
+    "Draven": [
+        "Draven_TwinAxe.png",
+        "Draven_Bloodrage.png",
+        "Draven_SpinningAxe.png"
+    ],
+    "Ekko": [
+        "Ekko_Q.png",
+        "Ekko_E.png",
+        "Ekko_W.png"
+    ],
+    "Elise": [
+        "EliseHumanE.png",
+        "EliseHumanQ.png",
+        "EliseHumanW.png"
+    ],
+    "Evelynn": [
+        "Evelynn_ReadyToBetray.png",
+        "Evelynn_Ravage.png",
+        "Evelynn_OnlyHellToPay.png"
+    ],
+    "Ezreal": [
+        "Ezreal_MysticShot.png",
+        "Ezreal_EssenceFlux.png",
+        "Ezreal_ArcaneShift.png"
+    ],
+    "Fiddlesticks": [
+        "Fiddlesticks_DarkWind.png",
+        "Drain.png",
+        "Fiddlesticks_Terrify.png",
+        "Fiddlesticks_Crowstorm.png"
+    ],
+    "Fiora": [
+        "Fiora_E.png",
+        "Fiora_Q.png",
+        "Fiora_W.png"
+    ],
+    "Fizz": [
+        "FizzPiercingStrike.png",
+        "FizzSeastoneActive.png",
+        "FizzJump.png"
+    ],
+    "Galio": [
+        "Galio_ResoluteSmite.png",
+        "Galio_Bulwark.png",
+        "Galio_RighteousGust.png"
+    ],
+    "Gangplank": [
+        "Gangplank_W.png",
+        "Gangplank_E.png",
+        "Gangplank_Q.png"
+    ],
+    "Garen": [
+        "Garen_W.png",
+        "Garen_Q.png",
+        "Garen_E1.png"
+    ],
+    "Gnar": [
+        "Gnar_E.png",
+        "Gnar_W.png",
+        "Gnar_Q.png"
+    ],
+    "Gragas": [
+        "GragasBodySlam.png",
+        "GragasBarrelRoll.png",
+        "GragasDrunkenRage.png"
+    ],
+    "Graves": [
+        "GravesBuckshot.png",
+        "GravesQuickDraw.png",
+        "GravesSmokeGrenade.png"
+    ],
+    "Hecarim": [
+        "Hecarim_Rampage.png",
+        "Hecarim_DevastingCharge.png",
+        "Hecarim_SpiritofDread.png"
+    ],
+    "Heimerdinger": [
+        "Heimerdinger_W1.png",
+        "Heimerdinger_E1.png",
+        "Heimerdinger_Q1.png"
+    ],
+    "Illaoi": [
+        "Illaoi_Q.png",
+        "Illaoi_W.png",
+        "Illaoi_E.png"
+    ],
+    "Irelia": [
+        "Irelia_Bladesurge.png",
+        "Irelia_EquilibriumStrike.png",
+        "Irelia_HitenStyle.png"
+    ],
+    "Janna": [
+        "Janna_HowlingGale.png",
+        "Janna_Zephyr.png",
+        "Janna_EyeOfTheStorm.png"
+    ],
+    "Jarvan IV": [
+        "JarvanIV_DragonStrike.png",
+        "JarvanIV_GoldenAegis.png",
+        "JarvanIV_DemacianStandard.png"
+    ],
+    "Jax": [
+        "Armsmaster_Empower.png",
+        "Armsmaster_Disarm.png",
+        "Armsmaster_CoupDeGrace.png"
+    ],
+    "Jayce": [
+        "Jayce_Q1.png",
+        "Jayce_E1.png",
+        "Jayce_W1.png"
+    ],
+    "Jhin": [
+        "Jhin_W.png",
+        "Jhin_Q.png",
+        "Jhin_E.png"
+    ],
+    "Jinx": [
+        "Jinx_Q1.png",
+        "Jinx_E.png",
+        "Jinx_W.png"
+    ],
+    "Kalista": [
+        "Kalista_W.png",
+        "Kalista_E.png",
+        "Kalista_Q.png"
+    ],
+    "Karma": [
+        "Karma_Q1.png",
+        "Karma_W1.png",
+        "Karma_E1.png"
+    ],
+    "Kassadin": [
+        "Kassadin_Q.png",
+        "Kassadin_E.png",
+        "Kassadin_W.png"
+    ],
+    "Katarina": [
+        "Katarina_Q.png",
+        "Katarina_E.png",
+        "Katarina_W.png"
+    ],
+    "Kayle": [
+        "Kayle_W.png",
+        "Kayle_Q.png",
+        "Kayle_E.png"
+    ],
+    "Kennen": [
+        "Kennen_LightningRush.png",
+        "Kennen_ThunderingShuriken.png",
+        "Kennen_ElectricalSurge.png"
+    ],
+    "Kha'Zix": [
+        "Khazix_Q.png",
+        "Khazix_W.png",
+        "Khazix_E.png"
+    ],
+    "Khartus": [
+        "Karthus_Q.png",
+        "Karthus_E.png",
+        "Karthus_W.png"
+    ],
+    "Kindred": [
+        "Kindred_W.png",
+        "Kindred_Q.png",
+        "Kindred_E.png"
+    ],
+    "Kog'Maw": [
+        "KogMaw_BioArcaneBarrage.png",
+        "KogMaw_CausticSpittle.png",
+        "KogMaw_VoidOoze.png"
+    ],
+    "Leblanc": [
+        "LeblancMarkOfSilence.png",
+        "LeblancDisplacement.png",
+        "LeblancConjureChains.png"
+    ],
+    "Lee Sin": [
+        "BlindMonkWOne.png",
+        "BlindMonkEOne.png",
+        "BlindMonKQOne.png"
+    ],
+    "Leona": [
+        "LeonaShieldOfDaybreak.png",
+        "LeonaZenithBlade.png",
+        "LeonaSolarBarrier.png"
+    ],
+    "Lissandra": [
+        "Lissandra_E.png",
+        "Lissandra_W.png",
+        "Lissandra_Q.png"
+    ],
+    "Lucian": [
+        "Lucian_Q.png",
+        "Lucian_E.png",
+        "Lucian_W.png"
+    ],
+    "Lulu": [
+        "Lulu_CommandPix.png",
+        "Lulu_Glitterbolt.png",
+        "Lulu_Whimsy.png"
+    ],
+    "Lux": [
+        "LuxLightStrikeKugel.png",
+        "LuxPrismaWrap.png",
+        "LuxCrashingBlitz2.png"
+    ],
+    "Malphite": [
+        "Malphite_BrutalStrikes.png",
+        "Malphite_SeismicShard.png",
+        "Malphite_GroundSlam.png"
+    ],
+    "Malzahar": [
+        "AlZahar_MaleficVisions.PNG",
+        "AlZahar_NullZone.PNG",
+        "AlZahar_CalloftheVoid.PNG"
+    ],
+    "Maokai": [
+        "Maokai_W.png",
+        "Maokai_Q.png",
+        "Maokai_E.png"
+    ],
+    "Master Yi": [
+        "MasterYi_Q.png",
+        "MasterYi_E1.png",
+        "MasterYi_W.png"
+    ],
+    "Miss Fortune": [
+        "MissFortune_Q.png",
+        "MissFortune_E.png",
+        "MissFortune_W.png"
+    ],
+    "Mordekaiser": [
+        "MordekaiserW.png",
+        "MordekaiserQ.png",
+        "MordekaiserE.png"
+    ],
+    "Morgana": [
+        "FallenAngel_BlackShield.png",
+        "FallenAngel_DarkBinding.png",
+        "FallenAngel_TormentedSoil.png"
+    ],
+    "Nami": [
+        "NamiW.png",
+        "NamiE.png",
+        "NamiQ.png"
+    ],
+    "Nasus": [
+        "Nasus_E.png",
+        "Nasus_Q.png",
+        "Nasus_W.png"
+    ],
+    "Nautilus": [
+        "Nautilus_Wrath.png",
+        "Nautilus_AnchorChain.png",
+        "Nautilus_RippleEffect.png"
+    ],
+    "Nidalee": [
+        "Nidalee_W1.png",
+        "Nidalee_E1.png",
+        "Nidalee_Q1.png"
+    ],
+    "Nocturne": [
+        "Nocturne_ShroudOfDarkness.png",
+        "Nocturne_Duskbringer.png",
+        "Nocturne_UnspeakableHorror.png"
+    ],
+    "Nunu": [
+        "Yeti_IceBlast.png",
+        "Yeti_Consume.png",
+        "Yeti_YetiSmash.png"
+    ],
+    "Olaf": [
+        "Olaf_Q.png",
+        "Olaf_E.png",
+        "Olaf_W.png"
+    ],
+    "Orianna": [
+        "OriannaCommandRedact.png",
+        "OriannaCommandAttack.png",
+        "OriannaCommandDissonance.png"
+    ],
+    "Pantheon": [
+        "Pantheon_LeapBash.png",
+        "Pantheon_SpearShot.png",
+        "Pantheon_HSS.png"
+    ],
+    "Poppy": [
+        "Poppy_E.png",
+        "Poppy_Q.png",
+        "Poppy_W.png"
+    ],
+    "Quinn": [
+        "Quinn_W.png",
+        "Quinn_Q.png",
+        "Quinn_E.png"
+    ],
+    "Rammus": [
+        "Armordillo_ShellBash.png",
+        "Armordillo_Powerball.png",
+        "Armordillo_ScaledPlating.png"
+    ],
+    "Rek'Sai": [
+        "RekSai_E1.png",
+        "RekSai_W1.png",
+        "RekSai_Q1.png"
+    ],
+    "Renekton": [
+        "Renekton_SliceAndDice.png",
+        "Renekton_Cleave.png",
+        "Renekton_Execute.png"
+    ],
+    "Rengar": [
+        "RengarQ.png",
+        "RengarW.png",
+        "RengarE.png"
+    ],
+    "Riven": [
+        "RivenKiShout.png",
+        "RivenPathoftheExile.png",
+        "RivenBrokenWings.png"
+    ],
+    "Rumble": [
+        "Rumble_Electro Harpoon.png",
+        "Rumble_Flamespitter.png",
+        "Rumble_Scrap Shield.png"
+    ],
+    "Ryze": [
+        "Ryze_Q.png",
+        "Ryze_W.png",
+        "Ryze_E.png"
+    ],
+    "Sejuani": [
+        "Sejuani_E_bright.png",
+        "Sejuani_W.png",
+        "Sejuani_Q.png"
+    ],
+    "Shaco": [
+        "Jester_Deceive.png",
+        "Jester_DeathWard.png",
+        "Jester_IncrediblyPrecise.png"
+    ],
+    "Shen": [
+        "Shen_E.png",
+        "Shen_W.png",
+        "Shen_Q.png"
+    ],
+    "Shyvana": [
+        "ShyvanaTwinBite.png",
+        "ShyvanaScorchedEarth.png",
+        "ShyvanaFlameBreath.png"
+    ],
+    "Singed": [
+        "Singed_W.png",
+        "Singed_E.png",
+        "Singed_Q.png"
+    ],
+    "Sion": [
+        "Sion_Q.png",
+        "Sion_E.png",
+        "Sion_W1.png"
+    ],
+    "Sivir": [
+        "Sivir_Q.png",
+        "Sivir_E.png",
+        "Sivir_W.png"
+    ],
+    "Skarner": [
+        "Skarner_E.png",
+        "Skarner_Q.png",
+        "Skarner_W.png"
+    ],
+    "Sona": [
+        "Sona_W.png",
+        "Sona_Q.png",
+        "Sona_E.png"
+    ],
+    "Soraka": [
+        "Soraka_Q.png",
+        "Soraka_W.png",
+        "Soraka_E.png"
+    ],
+    "Swain": [
+        "SwainNevermove.png",
+        "SwainDecrepify.png",
+        "SwainTorment.png"
+    ],
+    "Syndra": [
+        "SyndraE.png",
+        "SyndraQ.png",
+        "SyndraW.png"
+    ],
+    "Tahm Kench": [
+        "TahmKench_W1.png",
+        "TahmKench_Q.png",
+        "TahmKench_E.png"
+    ],
+    "Talon": [
+        "TalonRake.png",
+        "TalonCutthroat.png",
+        "TalonNoxianDiplomacy.png"
+    ],
+    "Taric": [
+        "GemKnight_Dazzle.png",
+        "GemKnight_Imbue.png",
+        "GemKnight_Shatter.png"
+    ],
+    "Teemo": [
+        "Teemo_E.png",
+        "Teemo_Q.png",
+        "Teemo_W.png"
+    ],
+    "Thresh": [
+        "Thresh_Q.png",
+        "Thresh_W.png",
+        "Thresh_E.png"
+    ],
+    "Tristana": [
+        "Tristana_Q.png",
+        "Tristana_W.png",
+        "Tristana_E.png"
+    ],
+    "Trundle": [
+        "Trundle_W.png",
+        "Trundle_Q.png",
+        "Trundle_E.png"
+    ],
+    "Tryndamere": [
+        "Tryndamere_E.png",
+        "Tryndamere_Q.png",
+        "Tryndamere_W.png"
+    ],
+    "Twisted Fate": [
+        "Cardmaster_FatesGambit.png",
+        "Cardmaster_PowerCard.png",
+        "Cardmaster_RapidToss.png"
+    ],
+    "Twitch": [
+        "Twitch_W.png",
+        "Twitch_E.png",
+        "Twitch_Q.png"
+    ],
+    "Udyr": [
+        "Udyr_BearStance.png",
+        "Udyr_TurtleStance.png",
+        "Udyr_TigerStance.png"
+    ],
+    "Urgot": [
+        "UrgotAcidHunter.png",
+        "UrgotCorrosiveCharge.png",
+        "UrgotTerrorCapacitor.png"
+    ],
+    "Varus": [
+        "VarusE.png",
+        "VarusW.png",
+        "VarusQ.png"
+    ],
+    "Vayne": [
+        "Vayne_Tumble.png",
+        "Vayne_Condemn.png",
+        "Vayne_SilveredBolts.png"
+    ],
+    "Veigar": [
+        "VeigarEventHorizon.png",
+        "VeigarBalefulStrike.png",
+        "VeigarDarkMatter.png"
+    ],
+    "Vel'Koz": [
+        "VelKoz_W.png",
+        "VelKoz_Q1.png",
+        "VelKoz_E.png"
+    ],
+    "Vi": [
+        "ViE.png",
+        "ViQ.png",
+        "ViW.png"
+    ],
+    "Viktor": [
+        "Viktor_Q1.png",
+        "Viktor_E1.png",
+        "Viktor_W1.png"
+    ],
+    "Vladimir": [
+        "Vladimir_Transfusion.png",
+        "Vladimir_TidesofBlood.png",
+        "Vladimir_SanguinePool.png"
+    ],
+    "Volibear": [
+        "VolibearE.png",
+        "VolibearW.png",
+        "VolibearQ.png"
+    ],
+    "Warwick": [
+        "Wolfman_BloodScent.png",
+        "Wolfman_SeverArmor.png",
+        "Wolfman_FrenziedStrikes.png"
+    ],
+    "Wukong": [
+        "MonkeyKingDecoy.png",
+        "MonkeyKingNimbusStrike.png",
+        "MonkeyKingCrushingBlow.png"
+    ],
+    "Xerath": [
+        "Xerath_W1.png",
+        "Xerath_E1.png",
+        "Xerath_Q1.png"
+    ],
+    "Xin Zhao": [
+        "XinZhao_Charge.png",
+        "XinZhao_BattleCry.png",
+        "XinZhao_ThreeTalon.png"
+    ],
+    "Yasuo": [
+        "Yasuo_Q1.png",
+        "Yasuo_E.png",
+        "Yasuo_W.png"
+    ],
+    "Yorick": [
+        "YorickOmenOfFamine.png",
+        "YorickOmenOfPestilence.png",
+        "YorickOmenOfWar.png"
+    ],
+    "Zac": [
+        "ZacW.png",
+        "ZacQ.PNG",
+        "ZacE.png"
+    ],
+    "Zed": [
+        "shadowninja_w.png",
+        "shadowninja_E.png",
+        "shadowninja_Q.png"
+    ],
+    "Ziggs": [
+        "ZiggsE.png",
+        "ZiggsW.png",
+        "ZiggsQ.png"
+    ],
+    "Zilean": [
+        "Zilean_E.png",
+        "Zilean_W.png",
+        "Zilean_Q.png"
+    ],
+    "Zyra": [
+        "ZyraW.png",
+        "ZyraE.png",
+        "ZyraQ.png"
+    ]
+}
