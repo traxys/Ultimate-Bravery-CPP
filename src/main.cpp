@@ -30,8 +30,8 @@ string getRandomChampion(){
 	else{
 		string championName((istreambuf_iterator<char>(champNameJSONFile) ),
     						(istreambuf_iterator<char>()    ) );
-    	Document championNameJSON;
-    	championNameJSON.Parse(championName.c_str());
+    		Document championNameJSON;
+    		championNameJSON.Parse(championName.c_str());
 		std::uniform_int_distribution<int> uniChamp(0,championNameJSON.Size()-1);
 	
 		return championNameJSON[uniChamp(rng)].GetString();
@@ -165,40 +165,44 @@ class UltimateBravery : public Gtk::Window{
 
 void UltimateBravery::generateBuild(){
 	auto champ = getRandomChampion();
-	m_champIcon = Gtk::Image("assets/champion/"+getIcon(champ));
-	m_champBox.pack_start(m_champIcon);
-	m_champIcon.show();
-	
+	m_champIcon.set("assets/champion/"+getIcon(champ));
+
 	m_name.set_markup("<span font='48' weight='bold'>"+champ+"</span>");
-	m_champBox.pack_start(m_name);
-	m_name.show();
-	
-	m_champBox.pack_start(m_spellBox);
-	m_spell = Gtk::Image("assets/spell/"+champ+"/"+getRandomSpell(champ));
-	m_spellBox.pack_start(m_spell);
-	m_spell.show();
-	
+
+	m_spell.set("assets/spell/"+champ+"/"+getRandomSpell(champ));
+
 	auto summs =getRandomSumms();
-	m_summ1 = Gtk::Image("assets/summs/"+summs[0]);
-	m_summ2 = Gtk::Image("assets/summs/"+summs[1]);
-	m_summBox.pack_start(m_summ1);
-	m_summ1.show();
-	m_summBox.pack_start(m_summ2);
-	m_summ2.show();
-	m_spellBox.pack_start(m_summBox);
-	m_summBox.show();
-	m_spellBox.show();
-	
-	m_mainBox.pack_start(m_champBox);
-	m_champBox.show();
+	m_summ1.set("assets/summs/"+summs[0]);
+	m_summ2.set("assets/summs/"+summs[1]);
 
 	auto randItems = getRandomItems();
-	m_boots = Gtk::Image("assets/item/Boots/"+randItems[0]);
-	m_item2 = Gtk::Image("assets/item/"+randItems[1]);
-	m_item3 = Gtk::Image("assets/item/"+randItems[2]);
-	m_item4 = Gtk::Image("assets/item/"+randItems[3]);
-	m_item5 = Gtk::Image("assets/item/"+randItems[4]);
-	m_item6 = Gtk::Image("assets/item/"+randItems[5]);
+	m_boots.set("assets/item/Boots/"+randItems[0]);
+	m_item2.set("assets/item/"+randItems[1]);
+	m_item3.set("assets/item/"+randItems[2]);
+	m_item4.set("assets/item/"+randItems[3]);
+	m_item5.set("assets/item/"+randItems[4]);
+	m_item6.set("assets/item/"+randItems[5]);
+
+	m_elixir.set("assets/item/Elixir/"+randItems[6]);
+}
+
+UltimateBravery::UltimateBravery() : m_mainBox(Gtk::ORIENTATION_VERTICAL),m_summBox(Gtk::ORIENTATION_VERTICAL),m_stuffFrame("Items"),m_reroll("Reroll"),m_miscBox(Gtk::ORIENTATION_HORIZONTAL,20){
+	generateBuild();
+
+	m_champBox.pack_start(m_champIcon);
+	
+	m_champBox.pack_start(m_name);
+	
+	m_champBox.pack_start(m_spellBox);
+
+	m_spellBox.pack_start(m_spell);
+	
+	m_summBox.pack_start(m_summ1);
+	m_summBox.pack_start(m_summ2);
+	m_spellBox.pack_start(m_summBox);
+	
+	m_mainBox.pack_start(m_champBox);
+
 	set_border_width(5);
 	m_stuffBox.pack_start(m_boots);
 	m_stuffBox.pack_start(m_item3);
@@ -206,45 +210,31 @@ void UltimateBravery::generateBuild(){
 	m_stuffBox.pack_start(m_item4);
 	m_stuffBox.pack_start(m_item5);
 	m_stuffBox.pack_start(m_item6);
-	m_boots.show();
-	m_item2.show();
-	m_item3.show();
-	m_item4.show();
-	m_item5.show();
-	m_item6.show();
 	
 	m_stuffFrame.add(m_stuffBox);
 	
 	m_mainBox.pack_start(m_stuffFrame);
-	m_stuffFrame.show();
-	m_stuffBox.show();
 	
-	m_elixir = Gtk::Image("assets/item/Elixir/"+randItems[6]);
 	m_miscBox.pack_start(m_elixir);
-	//m_miscBox.pack_start(m_reroll);
-	//m_reroll.set_border_width(5);
-	//m_reroll.set_size_request(100,20);
-	m_elixir.show();
-	//m_reroll.show();
+	m_miscBox.pack_start(m_reroll);
+	m_reroll.set_border_width(5);
+	m_reroll.set_size_request(100,20);
 	m_mainBox.pack_start(m_miscBox);
-	m_miscBox.show();
 	
 	m_reroll.signal_clicked().connect(sigc::bind<Glib::ustring>( sigc::mem_fun(*this,&UltimateBravery::on_button_clicked), "Reroll") );
 	
 	add(m_mainBox);
-	m_mainBox.show();
-}
-
-UltimateBravery::UltimateBravery() : m_mainBox(Gtk::ORIENTATION_VERTICAL),m_summBox(Gtk::ORIENTATION_VERTICAL),m_stuffFrame("Items"),m_reroll("Reroll"),m_miscBox(Gtk::ORIENTATION_HORIZONTAL,20){
-	generateBuild();
+	m_mainBox.show_all();
 }
 
 UltimateBravery::~UltimateBravery(){}
 
 void UltimateBravery::on_button_clicked(Glib::ustring data){
-	generateBuild();
-}
 
+	generateBuild();
+	m_mainBox.hide();
+	m_mainBox.show_all();
+}
 
 int main(int argc, char *argv[]){
   auto app =
